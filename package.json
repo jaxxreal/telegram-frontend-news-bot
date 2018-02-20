@@ -1,5 +1,5 @@
 {
-  "name": "tele-ai",
+  "name": "telegram-frontend-news-bot",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -7,7 +7,7 @@
     "node": "8.9.1"
   },
   "scripts": {
-    "start": "nodemon --exec 'ts-node' ./index.ts",
+    "start": "ts-node ./index.ts",
     "dev": "ts-node-dev index.ts"
   },
   "devDependencies": {
