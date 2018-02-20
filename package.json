@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "engines": {
+    "node": "8.9.1"
+  },
   "scripts": {
     "start": "nodemon --exec 'ts-node' ./index.ts",
     "dev": "ts-node-dev index.ts"
@@ -11,7 +14,7 @@
     "@types/cheerio": "^0.22.7",
     "@types/lodash": "^4.14.92",
     "@types/request": "^2.0.11",
-    "nodemon": "^1.14.11",
+    "nodemon": "^1.15.1",
     "ts-node": "^4.1.0",
     "ts-node-dev": "^1.0.0-pre.7",
     "typescript": "^2.6.2"
