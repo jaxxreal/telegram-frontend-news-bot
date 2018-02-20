@@ -1,0 +1,27 @@
+{
+  "name": "tele-ai",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon --exec 'ts-node' ./index.ts",
+    "dev": "ts-node-dev index.ts"
+  },
+  "devDependencies": {
+    "@types/cheerio": "^0.22.7",
+    "@types/lodash": "^4.14.92",
+    "@types/request": "^2.0.11",
+    "nodemon": "^1.14.11",
+    "ts-node": "^4.1.0",
+    "ts-node-dev": "^1.0.0-pre.7",
+    "typescript": "^2.6.2"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "dotenv": "^4.0.0",
+    "lodash.random": "^3.2.0",
+    "prettyjson": "^1.2.1",
+    "request": "^2.83.0",
+    "telegraf": "^3.17.3"
+  }
+}

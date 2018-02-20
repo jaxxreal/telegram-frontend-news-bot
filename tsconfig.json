@@ -1,0 +1,20 @@
+{
+    "compilerOptions" : {
+        "watch" : false,
+        "declaration" : false,
+        "noImplicitAny" : true,
+        "module" : "commonjs",
+        "target" : "es2015",
+        "sourceMap": true,
+        "noEmit": false,
+        "pretty": true,
+        "experimentalDecorators": true,
+        "allowUnreachableCode": true,
+        "lib": ["ES2015"]
+    },
+    "exclude" : [
+        "node_modules",
+        "dist",
+        "build"
+    ]
+}
