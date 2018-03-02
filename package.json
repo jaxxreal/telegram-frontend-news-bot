@@ -7,7 +7,7 @@
     "node": "8.9.1"
   },
   "scripts": {
-    "start": "./node_modules/nodemon/bin/nodemon.js './node_modules/ts-node/dist/bin.js' index.ts",
+    "start": "nodemon --exec 'ts-node' index.ts",
     "dev": "ts-node-dev index.ts"
   },
   "devDependencies": {
