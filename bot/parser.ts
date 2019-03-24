@@ -14,11 +14,12 @@ export class Parser {
         if (!Parser.isCacheExpired) {
             return Parser.getRandomArticle(Parser.htmlCache);
         }
-        return new Promise((resolve, reject) => {
+        return new Promise<string>((resolve, reject) => {
             request(URL, (error: any, response: any, html: any) => {
                 if (error) {
-                    return reject({ message: Parser.ERROR_STRING });
+                    return reject(Parser.ERROR_STRING);
                 }
+
                 Parser.htmlCache = html;
                 Parser.lastParseCallMs = Date.now();
 
