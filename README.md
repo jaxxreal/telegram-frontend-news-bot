@@ -19,21 +19,23 @@ BOT_TOKEN=YOUR_BOT_TOKEN
 
 Run `yarn` to install project deps.
 
-After that, use
+For development use:
 ```
 npm run dev
 ```
 
-for development, and
+For production run:
 
 ```
 npm start
 ```
-
-for "production" run.
 
 
 ## Built With
 
 * [Telegraf](http://telegraf.js.org/#/) - Modern Telegram bot framework for Node.js
 * [Cheerio](https://github.com/cheeriojs/cheerio) - Fast, flexible & lean implementation of core jQuery designed specifically for the server.
+
+## Contribution
+
+Thoughts, ideas and PRs are always welcome!
